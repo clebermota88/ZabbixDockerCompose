@@ -90,7 +90,4 @@ services:
       - /var/run:/var/run
     ports:
       - '10050:10050'
-    environment:
-      - ZBX_HOSTNAME=Zabbix server
-      - ZBX_SERVER_HOST=172.19.0.3 # ip do container docker
     
